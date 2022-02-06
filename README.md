@@ -2,6 +2,10 @@
 
 ### 환경
 
+* node 14.16.1  
+
+* 개발툴 - Visual Studio Code 사용
+
 * nodemon - 자동으로 app변경 시 node 재실행  
 `npm i -g nodemon`  
 
