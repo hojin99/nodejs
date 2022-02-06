@@ -1,0 +1,20 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "https://nodejs.dev/learn",
+  "main": "index.js",
+  "scripts": {
+    "hello": "nodemon src/hello.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hojin99/nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hojin99/nodejs/issues"
+  },
+  "homepage": "https://github.com/hojin99/nodejs#readme"
+}
