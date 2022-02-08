@@ -4,7 +4,7 @@
   "description": "https://nodejs.dev/learn",
   "main": "index.js",
   "scripts": {
-    "basic": "node src/basic.js --name=hojin --age=48",
+    "basic": "node src/basic.js --udr_def_path=d:\\work\\nodejs\\input\\report.in --udr_exp_dir=d:\\work\\nodejs\\output\\",
     "auto": "nodemon --watch src/ src/basic.js"
   },
   "repository": {
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/hojin99/nodejs#readme",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "minimist": "^1.2.5"
   }
 }

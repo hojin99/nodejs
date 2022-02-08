@@ -1,5 +1,5 @@
 const book = {
-    name:'kafka in',
+    name:'kafka in action',
     price:12
 };
 
