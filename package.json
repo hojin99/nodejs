@@ -4,9 +4,10 @@
   "description": "https://nodejs.dev/learn",
   "main": "index.js",
   "scripts": {
-    "basic": "node src/basic.js --udr_def_path=d:\\work\\nodejs\\input\\report.in --udr_exp_dir=d:\\work\\nodejs\\output\\",
-    "auto": "nodemon --watch src/ src/basic.js",
-    "server" : "node src/server.js"
+    "auto": "nodemon --watch src/ src/basic/console.js",
+    "args": "node src/basic/args.js --udr_def_path=d:\\work\\nodejs\\input\\report.in --udr_exp_dir=d:\\work\\nodejs\\output\\",
+      "static_server": "node src/static_web/server.js",
+    "static_client": "node src/static_web/client.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/hojin99/nodejs#readme",
   "dependencies": {
+    "axios": "^0.25.0",
     "dotenv": "^16.0.0",
     "minimist": "^1.2.5",
     "node-static": "^0.7.11"
