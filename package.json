@@ -6,8 +6,10 @@
   "scripts": {
     "auto": "nodemon --watch src/ src/basic/console.js",
     "args": "node src/basic/args.js --udr_def_path=d:\\work\\nodejs\\input\\report.in --udr_exp_dir=d:\\work\\nodejs\\output\\",
-      "static_server": "node src/static_web/server.js",
-    "static_client": "node src/static_web/client.js"
+    "static_server": "node src/static_web/server.js",
+    "static_client": "node src/static_web/client.js",
+    "tcp_server": "node src/tcp/tcp_server.js",
+    "tcp_client": "node src/tcp/tcp_client.js"
   },
   "repository": {
     "type": "git",
