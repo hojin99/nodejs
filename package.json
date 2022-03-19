@@ -9,7 +9,9 @@
     "static_server": "node src/static_web/server.js",
     "static_client": "node src/static_web/client.js",
     "tcp_server": "node src/tcp/tcp_server.js",
-    "tcp_client": "node src/tcp/tcp_client.js"
+    "tcp_client": "node src/tcp/tcp_client.js",
+    "udp_server": "node src/udp/udp_server.js",
+    "udp_client": "node src/udp/udp_client.js"    
   },
   "repository": {
     "type": "git",
