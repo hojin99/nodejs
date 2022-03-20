@@ -12,6 +12,6 @@
 * nodemon --watch src/ src/app.js와 같이 통해서 소스 변경 시 마다 자동 재실행  
 
 ### 참조
-https://nodejs.dev/learn  
+basic : https://nodejs.dev/learn  
 tcp sever,client : https://www.knowledgehut.com/tutorials/node-js/socket-services  
 
