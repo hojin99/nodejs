@@ -1,4 +1,6 @@
 const net = require('net');
+const PORT = 10000;
+const HOST = '127.0.0.1';
 
 let clients = [];
 // createServer(listener: socket)
@@ -64,7 +66,7 @@ tServer.on('error', function(err) {
 });
 
 // 서버 listen(server port, server ip, listener)
-tServer.listen(10000, function() {
+tServer.listen(PORT, HOST, function() {
     // listening 시작 시점에 호출됨 (특수한 상황이 아닌 경우 초기 한번 호출됨)
     console.log("TCP Server Listening port 10000 ...");
 });

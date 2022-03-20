@@ -1,8 +1,10 @@
 const net = require('net');
+const PORT = 10000;
+const HOST = '127.0.0.1';
 
 let client = new net.Socket();
 
-client.connect(10000, '127.0.0.1',() => {
+client.connect(PORT, HOST,() => {
     console.log('connected');
     client.write(`Hello Server : ${client.address().address}:${client.address().port}`);
 });
