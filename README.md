@@ -10,7 +10,7 @@
 * npm install을 통해서 의존성 업데이트  
 * pacakge.json의 스크립트 이용해서 실행  
 * Code Runner를 통해서 Ctrl+Alt+N으로 실행  
-* nodemon --watch src/ src/app.js와 같이 통해서 소스 변경 시 마다 자동 재실행  
+* nodemon --watch src/ src/app.js : 소스 변경 시 마다 자동 재실행  
 
 ### 참조
 basic : https://nodejs.dev/learn  
