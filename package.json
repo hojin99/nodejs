@@ -8,11 +8,13 @@
     "args": "node src/basic/args.js --udr_def_path=d:\\work\\nodejs\\input\\report.in --udr_exp_dir=d:\\work\\nodejs\\output\\",
     "static_server": "node src/static_web/server.js",
     "static_client": "node src/static_web/client.js",
+    "http_server": "node src/http/http_server.js",
+    "http_client": "node src/tcp/http_client.js",
     "tcp_server": "node src/tcp/tcp_server.js",
     "tcp_client": "node src/tcp/tcp_client.js",
     "tcp_client_class": "node src/tcp/tcp_client_use.js",
     "udp_server": "node src/udp/udp_server.js",
-    "udp_client": "node src/udp/udp_client.js"    
+    "udp_client": "node src/udp/udp_client.js"
   },
   "repository": {
     "type": "git",
@@ -27,7 +29,9 @@
   "homepage": "https://github.com/hojin99/nodejs#readme",
   "dependencies": {
     "axios": "^0.25.0",
+    "daemonize2": "^0.4.2",
     "dotenv": "^16.0.0",
+    "express": "^4.18.1",
     "minimist": "^1.2.5",
     "node-static": "^0.7.11"
   }

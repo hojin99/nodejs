@@ -2,7 +2,7 @@
 
 ### 환경
 
-* node 14.16.1  
+* node 14.16.1 이상  
 
 * 개발툴 - Visual Studio Code 사용
 
@@ -14,5 +14,9 @@
 
 ### 참조
 basic : https://nodejs.dev/learn  
-tcp sever,client : https://www.knowledgehut.com/tutorials/node-js/socket-services  
+tcp : https://www.knowledgehut.com/tutorials/node-js/socket-services  
+udp : https://nodejs.org/api/dgram.html  
+static_web : http, node_static 모듈 기반  
+http (express 기반) :  http://expressjs.com/  
+
 
