@@ -9,7 +9,7 @@
     "static_server": "node src/static_web/server.js",
     "static_client": "node src/static_web/client.js",
     "http_server": "node src/http/http_server.js",
-    "http_client": "node src/tcp/http_client.js",
+    "http_client": "node src/http/http_client.js",
     "tcp_server": "node src/tcp/tcp_server.js",
     "tcp_client": "node src/tcp/tcp_client.js",
     "tcp_client_class": "node src/tcp/tcp_client_use.js",

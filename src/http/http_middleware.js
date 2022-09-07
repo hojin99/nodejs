@@ -26,4 +26,9 @@ exports.register = (app) => {
     
     app.use(logger);
 
+    // 에러 처리
+    app.use((err,req,res,next) => {
+        console.log(`error : ${err}`);
+    });
+
 }
