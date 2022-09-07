@@ -30,6 +30,7 @@
   "dependencies": {
     "axios": "^0.25.0",
     "body-parser": "^1.20.0",
+    "child_process": "^1.0.2",
     "compression": "^1.7.4",
     "cookie-parser": "^1.4.6",
     "daemonize2": "^0.4.2",
